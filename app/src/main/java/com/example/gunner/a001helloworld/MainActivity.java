@@ -42,13 +42,13 @@ public class MainActivity extends AppCompatActivity {
                 builder.show();
             }
         });
-        Button b2 = (Button) findViewById(R.id.showToastButton);
+        /*Button b2 = (Button) findViewById(R.id.showToastButton);
         b2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Toast.makeText(MainActivity.this,"Thank you.",Toast.LENGTH_SHORT).show();
             }
-        });
+        });*/
         Button b3 = (Button) findViewById(R.id.exitButton);
         b3.setOnClickListener(new View.OnClickListener() {
             @Override
